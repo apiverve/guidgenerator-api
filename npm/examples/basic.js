@@ -15,8 +15,8 @@ const api = new guidgeneratorAPI({
 
 // Example query
 var query = {
-  count: "3",
-  format: "uppercase"
+  count: 1,
+  format: "default"
 };
 
 // Make the API request using callback
