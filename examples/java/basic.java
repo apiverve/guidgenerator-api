@@ -12,13 +12,8 @@ public class BasicExample {
         GUIDGeneratorAPIClient client = new GUIDGeneratorAPIClient("YOUR_API_KEY_HERE");
 
         try {
-            // Query parameters
-            Map&lt;String, Object&gt; parameters &#x3D; new HashMap&lt;&gt;();
-        parameters.put(&quot;count&quot;, &quot;3&quot;);
-        parameters.put(&quot;format&quot;, &quot;uppercase&quot;);
-
-            // Execute the API request
-            APIResponse response = client.execute(parameters);
+            // Execute the API request (no parameters required)
+            APIResponse response = client.execute(null);
 
             // Check if the request was successful
             if (response.isSuccess()) {
