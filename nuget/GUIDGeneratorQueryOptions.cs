@@ -11,15 +11,13 @@ namespace APIVerve.API.GUIDGenerator
     public class GUIDGeneratorQueryOptions
     {
         /// <summary>
-        /// Number of GUIDs to generate (1-100, default: 1)
-        /// Example: 3
+        /// Number of GUIDs to generate
         /// </summary>
         [JsonProperty("count")]
         public string Count { get; set; }
 
         /// <summary>
-        /// Format: 'default', 'uppercase', 'nohyphens', or 'braces' (default: default)
-        /// Example: uppercase
+        /// Output format
         /// </summary>
         [JsonProperty("format")]
         public string Format { get; set; }
