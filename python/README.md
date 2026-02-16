@@ -44,7 +44,10 @@ from apiverve_guidgenerator.apiClient import GuidgeneratorAPIClient
 # Initialize the client with your APIVerve API key
 api = GuidgeneratorAPIClient("[YOUR_API_KEY]")
 
-query = { "count": 1, "format": "default" }
+query = {
+    "count": 1,
+    "format": "default"
+}
 
 try:
     # Make the API call
@@ -82,7 +85,10 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```python
-query = { "count": 1, "format": "default" }
+query = {
+    "count": 1,
+    "format": "default"
+}
 ```
 
 ###### Simple Request
@@ -128,7 +134,10 @@ from apiverve_guidgenerator.apiClient import GuidgeneratorAPIClient, Guidgenerat
 
 api = GuidgeneratorAPIClient("[YOUR_API_KEY]")
 
-query = { "count": 1, "format": "default" }
+query = {
+    "count": 1,
+    "format": "default"
+}
 
 try:
     result = api.execute(query)
@@ -149,7 +158,10 @@ from apiverve_guidgenerator.apiClient import GuidgeneratorAPIClient, Guidgenerat
 
 api = GuidgeneratorAPIClient("[YOUR_API_KEY]")
 
-query = { "count": 1, "format": "default" }
+query = {
+    "count": 1,
+    "format": "default"
+}
 
 try:
     result = api.execute(query)
@@ -183,7 +195,10 @@ The client supports the context manager protocol for automatic resource cleanup:
 ```python
 from apiverve_guidgenerator.apiClient import GuidgeneratorAPIClient, GuidgeneratorAPIClientError
 
-query = { "count": 1, "format": "default" }
+query = {
+    "count": 1,
+    "format": "default"
+}
 
 # Using context manager ensures proper cleanup
 with GuidgeneratorAPIClient("[YOUR_API_KEY]") as api:
@@ -209,7 +224,10 @@ from apiverve_guidgenerator.apiClient import GuidgeneratorAPIClient
 # Enable debug mode
 api = GuidgeneratorAPIClient("[YOUR_API_KEY]", debug=True)
 
-query = { "count": 1, "format": "default" }
+query = {
+    "count": 1,
+    "format": "default"
+}
 
 # Debug information will be printed to console
 result = api.execute(query)
@@ -224,8 +242,12 @@ from apiverve_guidgenerator.apiClient import GuidgeneratorAPIClient
 
 api = GuidgeneratorAPIClient("[YOUR_API_KEY]")
 
+query = {
+    "count": 1,
+    "format": "default"
+}
+
 try:
-    query = { "count": 1, "format": "default" }
     result = api.execute(query)
     print(result)
 finally:
