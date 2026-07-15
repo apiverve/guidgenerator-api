@@ -13,7 +13,13 @@ const API_URL = 'https://api.apiverve.com/v1/guidgenerator';
  */
 async function callGUIDGeneratorAPI() {
   try {
-    const response = await fetch(API_URL, {
+    // Query parameters
+    const params &#x3D; new URLSearchParams({
+            count: 3,
+            format: &#x27;uppercase&#x27;
+        });
+
+    const response = await fetch(`${API_URL}?${params}`, {
       method: 'GET',
       headers: {
         'x-api-key': API_KEY
