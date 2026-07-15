@@ -30,7 +30,12 @@ The GUID Generator API provides a simple, reliable way to integrate guid generat
 ```javascript
 async function callGUIDGeneratorAPI() {
     try {
-        const response = await fetch('https://api.apiverve.com/v1/guidgenerator', {
+        const params = new URLSearchParams({
+            count: 3,
+            format: 'uppercase'
+        });
+
+        const response = await fetch(`https://api.apiverve.com/v1/guidgenerator?${params}`, {
             method: 'GET',
             headers: {
                 'x-api-key': 'YOUR_API_KEY_HERE'
@@ -50,7 +55,7 @@ callGUIDGeneratorAPI();
 ### Using cURL
 
 ```bash
-curl -X GET "https://api.apiverve.com/v1/guidgenerator?param=value" \
+curl -X GET "https://api.apiverve.com/v1/guidgenerator?count=3&format=uppercase" \
   -H "x-api-key: YOUR_API_KEY_HERE"
 ```
 
@@ -150,7 +155,7 @@ go get github.com/apiverve/guidgenerator-api/go
 |---------|---------|
 | **Multi-language SDKs** | Native packages for JavaScript, Python, C#, Go, and Android |
 | **Simple Integration** | Single API key authentication, consistent response format |
-| **Production Ready** | 99.9% uptime, fast response times, used by thousands of developers |
+| **Production Ready** | 99.9% uptime SLA, served from 24 global regions |
 | **Comprehensive Docs** | Full examples, OpenAPI spec, and dedicated support |
 
 ---
@@ -169,7 +174,7 @@ go get github.com/apiverve/guidgenerator-api/go
 The GUID Generator API is commonly used for:
 
 - **Web Applications** - Add guid generator features to your frontend or backend
-- **Mobile Apps** - Native SDKs for iOS and Android development
+- **Mobile Apps** - Native SDKs for Android development
 - **Automation** - Integrate with n8n, Zapier, or custom workflows
 - **SaaS Products** - Enhance your product with guid generator capabilities
 - **Data Pipelines** - Process and analyze data at scale
