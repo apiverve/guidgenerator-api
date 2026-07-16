@@ -192,11 +192,36 @@ x-api-key: YOUR_API_KEY_HERE
 Get your API key: [https://apiverve.com](https://apiverve.com)
 
 ### Response Format
-All responses are JSON with this structure:
+
+Every APIVerve endpoint returns the same envelope — check `status`, then read `data`:
+
 ```json
 {
   "status": "ok",
+  "error": null,
   "data": { ... }
+}
+```
+
+### Example Response
+
+A real response from the GUID Generator API:
+
+```json
+{
+  "status": "ok",
+  "error": null,
+  "data": {
+    "guids": [
+      "099FD1E4-60FD-4749-9B61-53A265F52579",
+      "D68CA374-C822-40E4-9948-CE7A5D5FC76A",
+      "F6DAD45F-A904-4007-89DF-8F5C76184910"
+    ],
+    "count": 3,
+    "format": "uppercase",
+    "version": 4,
+    "variant": "RFC 4122"
+  }
 }
 ```
 
