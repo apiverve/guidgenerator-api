@@ -14,7 +14,7 @@ namespace APIVerve.API.GUIDGenerator
         /// Number of GUIDs to generate
         /// </summary>
         [JsonProperty("count")]
-        public string Count { get; set; }
+        public int? Count { get; set; }
 
         /// <summary>
         /// Output format
