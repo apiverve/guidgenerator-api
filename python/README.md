@@ -1,13 +1,12 @@
 GUID Generator API
 ============
 
-GUID Generator is a tool for generating Globally Unique Identifiers (GUIDs). It creates RFC 4122 version 4 UUIDs with multiple formatting options including uppercase, no hyphens, and braces.
+GUID Generator is a GUID generator API that creates RFC 4122 version 4 GUIDs in standard, uppercase, hyphen-free, or brace-wrapped formats. Pass a count and formatting style to receive a batch of unique IDs matching your structural requirements.
 
-![Build Status](https://img.shields.io/badge/build-passing-green)
-![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
-![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a Python API Wrapper for the [GUID Generator API](https://apiverve.com/marketplace/guidgenerator?utm_source=pypi&utm_medium=readme)
+[![PyPI version](https://img.shields.io/pypi/v/apiverve-guidgenerator.svg)](https://pypi.org/project/apiverve-guidgenerator/)
+
+This is a Python wrapper for the [GUID Generator API](https://apiverve.com/marketplace/guidgenerator?utm_source=pypi&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -29,8 +28,8 @@ pip3 install apiverve-guidgenerator
 
 ## Configuration
 
-Before using the guidgenerator API client, you have to setup your account and obtain your API Key.
-You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=pypi&utm_medium=readme)
+Before using the GUID Generator API client, you have to setup your account and obtain your API Key.
+You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=pypi&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -63,7 +62,7 @@ except Exception as e:
 
 ## Usage
 
-The GUID Generator API documentation is found here: [https://docs.apiverve.com/ref/guidgenerator](https://docs.apiverve.com/ref/guidgenerator?utm_source=pypi&utm_medium=readme).
+The GUID Generator API documentation is found here: [https://docs.apiverve.com/ref/guidgenerator](https://docs.apiverve.com/ref/guidgenerator?utm_source=pypi&utm_medium=referral&utm_content=readme).
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
@@ -109,9 +108,9 @@ print(result)
   "error": null,
   "data": {
     "guids": [
-      "FC79FCBB-39EA-4489-8203-B309471CE520",
-      "807C7704-6BF4-4156-9428-58F1CDC1EDA8",
-      "2A91D0B2-A7C0-47D3-9243-7D72C913C845"
+      "099FD1E4-60FD-4749-9B61-53A265F52579",
+      "D68CA374-C822-40E4-9948-CE7A5D5FC76A",
+      "F6DAD45F-A904-4007-89DF-8F5C76184910"
     ],
     "count": 3,
     "format": "uppercase",
@@ -259,7 +258,7 @@ finally:
 
 ## Customer Support
 
-Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=pypi&utm_medium=readme).
+Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=pypi&utm_medium=referral&utm_content=readme).
 
 ---
 
@@ -270,12 +269,12 @@ Stay up to date by following [@apiverveHQ](https://twitter.com/apiverveHQ) on Tw
 
 ## Legal
 
-All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=pypi&utm_medium=readme) and all legal documents and agreements.
+All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=pypi&utm_medium=referral&utm_content=readme) and all legal documents and agreements.
 
 ---
 
 ## License
-Licensed under the The MIT License (MIT)
+Licensed under the MIT License (MIT)
 
 Copyright (&copy;) 2026 APIVerve, and EvlarSoft LLC
 
