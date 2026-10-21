@@ -1,6 +1,6 @@
 # GUID Generator API - PHP Package
 
-GUID Generator is a tool for generating Globally Unique Identifiers (GUIDs). It creates RFC 4122 version 4 UUIDs with multiple formatting options including uppercase, no hyphens, and braces.
+GUID Generator is a GUID generator API that creates RFC 4122 version 4 GUIDs in standard, uppercase, hyphen-free, or brace-wrapped formats. Pass a count and formatting style to receive a batch of unique IDs matching your structural requirements.
 
 ## Installation
 
@@ -92,11 +92,11 @@ $client = new Client(
 
 ## Documentation
 
-For more information, visit the [API Documentation](https://docs.apiverve.com/ref/guidgenerator?utm_source=packagist&utm_medium=readme).
+For more information, visit the [API Documentation](https://docs.apiverve.com/ref/guidgenerator?utm_source=packagist&utm_medium=referral&utm_content=readme).
 
 ## Support
 
-- Website: [https://apiverve.com/marketplace/guidgenerator?utm_source=php&utm_medium=readme](https://apiverve.com/marketplace/guidgenerator?utm_source=php&utm_medium=readme)
+- Website: [https://apiverve.com/marketplace/guidgenerator?utm_source=php&utm_medium=referral&utm_content=readme](https://apiverve.com/marketplace/guidgenerator?utm_source=php&utm_medium=referral&utm_content=readme)
 - Email: hello@apiverve.com
 
 ## License

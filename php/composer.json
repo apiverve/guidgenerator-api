@@ -1,7 +1,7 @@
 {
     "name": "apiverve/guidgenerator",
-    "description": "GUID Generator is a tool for generating Globally Unique Identifiers (GUIDs). It creates RFC 4122 version 4 UUIDs with multiple formatting options including uppercase, no hyphens, and braces.",
-    "version": "1.2.0",
+    "description": "GUID Generator is a GUID generator API that creates RFC 4122 version 4 GUIDs in standard, uppercase, hyphen-free, or brace-wrapped formats. Pass a count and formatting style to receive a batch of unique IDs matching your structural requirements.",
+    "version": "1.2.2",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -15,13 +15,13 @@
         "api",
         "apiverve",
         "guidgenerator",
-        "guid",
-        "guid generator",
-        "globally unique identifier",
-        "unique id",
-        "identifier"
+        "guid generator api",
+        "guid api",
+        "guid generation api",
+        "uuid generator api",
+        "guid generator"
     ],
-    "homepage": "https://apiverve.com/marketplace/guidgenerator?utm_source=php&utm_medium=homepage",
+    "homepage": "https://apiverve.com/marketplace/guidgenerator?utm_source=php&utm_medium=referral&utm_content=homepage",
     "support": {
         "email": "hello@apiverve.com",
         "docs": "https://docs.apiverve.com/ref/guidgenerator",
