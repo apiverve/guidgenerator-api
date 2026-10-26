@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/guidgenerator",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "GUID Generator is a GUID generator API that creates RFC 4122 version 4 GUIDs in standard, uppercase, hyphen-free, or brace-wrapped formats. Pass a count and formatting style to receive a batch of unique IDs matching your structural requirements.",
   "main": "index.js",
   "types": "index.d.ts",
