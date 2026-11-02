@@ -1,11 +1,11 @@
 # GUID Generator API - Dart/Flutter Client
 
-GUID Generator is a tool for generating Globally Unique Identifiers (GUIDs). It creates RFC 4122 version 4 UUIDs with multiple formatting options including uppercase, no hyphens, and braces.
+GUID Generator is a GUID generator API that creates RFC 4122 version 4 GUIDs in standard, uppercase, hyphen-free, or brace-wrapped formats. Pass a count and formatting style to receive a batch of unique IDs matching your structural requirements.
 
 [![pub package](https://img.shields.io/pub/v/apiverve_guidgenerator.svg)](https://pub.dev/packages/apiverve_guidgenerator)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is the Dart/Flutter client for the [GUID Generator API](https://apiverve.com/marketplace/guidgenerator?utm_source=dart&utm_medium=readme).
+This is the Dart/Flutter client for the [GUID Generator API](https://apiverve.com/marketplace/guidgenerator?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## Installation
 
@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_guidgenerator: ^1.1.14
+  apiverve_guidgenerator: ^1.2.4
 ```
 
 Then run:
@@ -54,9 +54,9 @@ void main() async {
   "error": null,
   "data": {
     "guids": [
-      "FC79FCBB-39EA-4489-8203-B309471CE520",
-      "807C7704-6BF4-4156-9428-58F1CDC1EDA8",
-      "2A91D0B2-A7C0-47D3-9243-7D72C913C845"
+      "099FD1E4-60FD-4749-9B61-53A265F52579",
+      "D68CA374-C822-40E4-9948-CE7A5D5FC76A",
+      "F6DAD45F-A904-4007-89DF-8F5C76184910"
     ],
     "count": 3,
     "format": "uppercase",
@@ -68,12 +68,12 @@ void main() async {
 
 ## API Reference
 
-- **API Home:** [GUID Generator API](https://apiverve.com/marketplace/guidgenerator?utm_source=dart&utm_medium=readme)
-- **Documentation:** [docs.apiverve.com/ref/guidgenerator](https://docs.apiverve.com/ref/guidgenerator?utm_source=dart&utm_medium=readme)
+- **API Home:** [GUID Generator API](https://apiverve.com/marketplace/guidgenerator?utm_source=dart&utm_medium=referral&utm_content=readme)
+- **Documentation:** [docs.apiverve.com/ref/guidgenerator](https://docs.apiverve.com/ref/guidgenerator?utm_source=dart&utm_medium=referral&utm_content=readme)
 
 ## Authentication
 
-All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=readme).
+All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## License
 
@@ -81,4 +81,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=readme)
+Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme)

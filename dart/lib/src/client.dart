@@ -46,7 +46,7 @@ final _formatPatterns = {
 
 /// GUID Generator API client.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/guidgenerator?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/guidgenerator?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
 /// * [count] - Number of GUIDs to generate [min: 1, max: 100]
